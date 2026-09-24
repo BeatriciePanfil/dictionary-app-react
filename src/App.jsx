@@ -4,7 +4,12 @@ import "./App.css";
 export default function App() {
   return (
     <div className="container App">
-      <Dictionary />
+      <header>
+        <h1>.DICTIONARY.</h1>
+      </header>
+
+      <Dictionary defaultKeyword={"hello"} />
+
       <footer>
         This project was coded by{" "}
         <a
