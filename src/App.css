@@ -1,0 +1,12 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px auto;
+}
+.App {
+  max-width: 800px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
