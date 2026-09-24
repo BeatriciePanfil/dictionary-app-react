@@ -1,5 +1,4 @@
 export default function Photos(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <section>
