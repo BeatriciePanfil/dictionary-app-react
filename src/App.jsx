@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="container App">
       <Dictionary />
       <footer>
         This project was coded by{" "}
@@ -21,7 +21,7 @@ export default function App() {
         and{" "}
         <a href="" target="_blank" rel="noreferrer">
           hosted on Netlify
-        </a>
+        </a>{" "}
       </footer>
     </div>
   );
