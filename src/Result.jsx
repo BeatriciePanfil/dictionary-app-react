@@ -1,3 +1,5 @@
+import Synonyms from "./Synonyms";
+
 import "./Result.css";
 
 export default function Result(props) {
@@ -13,6 +15,7 @@ export default function Result(props) {
                 <div className="part-of-speech">{meanings.partOfSpeech}</div>
                 <div className="definition">{meanings.definition}</div>
                 <div className="example">{meanings.example}</div>
+                <Synonyms synonyms={meanings.synonyms} />
               </div>
             );
           })}
