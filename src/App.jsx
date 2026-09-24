@@ -15,11 +15,19 @@ export default function App() {
           Beatricie Panfil
         </a>
         , is{" "}
-        <a href="" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/BeatriciePanfil/dictionary-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           open-sourced on GitHub
         </a>{" "}
         and{" "}
-        <a href="" target="_blank" rel="noreferrer">
+        <a
+          href="https://dictionary-app-react-dark.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
           hosted on Netlify
         </a>{" "}
       </footer>
